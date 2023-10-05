@@ -1,0 +1,16 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+        int n;
+        float m;
+        char p;
+        cout<<"Employee Id: "<<endl;
+        cin>>n;
+        cout<<fixed<<setprecision(2)<<"salary: "<<endl;
+        cin>>m;
+        cout<<"Department code: "<<endl;
+        cin>>p;
+
+
+}
