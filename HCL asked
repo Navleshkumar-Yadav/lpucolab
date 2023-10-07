@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+        int n;
+        cin>>n;
+        cout<<"The number of attendees on day 1: "<<(2*n)/7<<endl;
+        cout<<"The number of attendees on day 2: "<<(2*(2*n)/7)<<endl;
+        cout<<"The number of attendees on day 3: "<<((2*n)/7)/2;
+
+}
